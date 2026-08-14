@@ -18,6 +18,11 @@ parameters** — on consumer and heterogeneous hardware, in pure C with zero
 engine dependencies, by treating storage, RAM, and VRAM as a single inference
 hierarchy (AI memory multitiering).
 
+> Repository note: this GitHub copy is maintained for local experimentation,
+> issue tracking, and easier cloning/building from the repository. The
+> upstream project links and documentation remain the same, and this fork is
+> intended to make the code easier to run and iterate on from GitHub.
+
 Five families run today: **GLM-5.2** (744B), **Inkling** (975B), **Kimi K3**
 (2.8T), **DeepSeek V4 Flash** (284B) and **OLMoE** (7B) — one C file each, the
 same `coli chat` / `coli serve` / `coli web` front end.
